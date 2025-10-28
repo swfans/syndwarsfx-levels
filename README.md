@@ -1,10 +1,10 @@
-# swars-levels
+# syndwarsfx-levels
 
-Map and level files for Syndicate Wars Port.
+Map and level files for Syndicate Wars Fan Expansion.
 
 ## About
 
-**Syndicate Wars Port**, alternative binary for the classic Bullfrog game.
+**Syndicate Wars Fan Expansion**, alternative binary for the classic Bullfrog game.
 
 Alongside fixes to the game executable code, an updated set of assets is
 required to use the full potential of the code fixes.
@@ -14,19 +14,19 @@ Bullfrog, with additional fixes applied to the files by fan community.
 
 ## Installation from a release
 
-Download the release `swars-levels-*.zip` file. Copy the extracted
-`LEVELS` and `MAPS` folders to a previous Syndicate Wars Port installation,
+Download the release `syndwarsfx-levels-*.zip` file. Copy the extracted
+`LEVELS` and `MAPS` folders to a previous SyndWarsFX installation,
 replacing the existing files.
 
 ### General building instructions
 
 To build **Syndicate Wars Levels**, use the following steps:
 
-1. go into the directory with `swars-levels` source release
+1. go into the directory with `syndwarsfx-levels` source release
 2. do `autoreconf -if` to create build scripts from templates
 3. do `./configure` to make the build scripts find required dependencies
 4. do `make` to build release versions of data files
-5. do `make install` to copy the files into `swars` installation folder
+5. do `make install` to copy the files into `syndwarsfx` installation folder
 
 You should now have the latest maps and levels on your installation folder.
 
@@ -40,7 +40,7 @@ from source release would work as well.
 
 Here are specific commands required to build the levels on Ubuntu linux.
 
-Download the `swars-levels` source release, and extract it somewhere.
+Download the `syndwarsfx-levels` source release, and extract it somewhere.
 Go to that folder, and generate build scripts from templates using autotools:
 
 ```
@@ -73,4 +73,4 @@ That's it, now you have the leval and map files ready.
 
 ## Done
 
-That's all. See more documentation in [Syndicate Wars Port repo](https://github.com/mefistotelis/swars).
+That's all. See more documentation in [SyndWarsFX repo](https://github.com/mefistotelis/syndwarsfx).
