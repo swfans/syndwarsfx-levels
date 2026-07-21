@@ -8,12 +8,12 @@ m4_define([ver_release], [1])
 # Set build number to commit count only if ".git" folder is present
 m4_define([ver_build], m4_if(m4_esyscmd_s([ls -1 -d ".git" 2>&1]),.git,[m4_esyscmd_s([git rev-list --count HEAD])],[0]))
 
-m4_define([swars_levels_version],
+m4_define([syndwarsfx_levels_version],
       [ver_major.ver_minor.ver_release.ver_build])
 
-AC_INIT([Syndicate Wars Levels], [swars_levels_version], [listom@gmail.com], [swars_levels])
+AC_INIT([SyndWarsFX Levels], [syndwarsfx_levels_version], [listom@gmail.com], [syndwarsfx_levels])
 
-m4_define([parent_package], [swars])
+m4_define([parent_package], [syndwarsfx])
 AC_DEFINE([PARENT_PACKAGE], [parent_package], [Name of the parent package, for which this one provides data files])
 
 AC_CONFIG_SRCDIR([LEVELS/C001L001.D1])

@@ -1,6 +1,6 @@
-# swars-levels
+# syndwarsfx-levels
 
-Map and level files for Syndicate Wars Port.
+Map and level files for Syndicate Wars Fan Expansion.
 
 ## Legal Stuff
 
